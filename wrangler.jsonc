@@ -18,4 +18,31 @@
     }
   }
 }
+{
+  // ...
+  "vars": {
+    "TELEGRAM_CHAT_ID": "6881713177"
+  },
+  // ...
+}
+{
+  // ...
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "redact_query_string": false,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true
+    }
+  },
+  // ...
+}
 }
