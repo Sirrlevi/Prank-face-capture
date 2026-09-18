@@ -3,32 +3,21 @@
   "name": "prank-face-capture",
   "main": "src/index.js",
   "compatibility_date": "2026-08-21",
+
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
     "run_worker_first": [
       "/api/*"
     ]
-  }
-{
-  "observability": {
-    "logs": {
-      "enabled": true,
-      "invocation_logs": true
-    }
-  }
-}
-{
-  // ...
+  },
+
   "vars": {
     "TELEGRAM_CHAT_ID": "6881713177"
   },
-  // ...
-}
-{
-  // ...
+
   "observability": {
-    "enabled": false,
+    "enabled": true,
     "head_sampling_rate": 1,
     "redact_query_string": false,
     "logs": {
@@ -42,7 +31,5 @@
       "head_sampling_rate": 1,
       "persist": true
     }
-  },
-  // ...
-}
+  }
 }
